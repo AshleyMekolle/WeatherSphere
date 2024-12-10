@@ -1,0 +1,139 @@
+.signin-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAFB;
+    padding: 1rem;
+  }
+  
+  .signin-image-container {
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .signin-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .signin-form-container {
+    width: 100%;
+    max-width: 28rem;
+  }
+  
+  .signin-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signin-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .signin-title {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signin-subtitle {
+    color: #111827;
+  }
+  
+  .signin-form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .signin-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D1D5DB;
+    transition: all 0.2s;
+  }
+  
+  .signin-input:focus {
+    outline: none;
+    border-color: #3B82F6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  .signin-button {
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .signin-button:hover:not(:disabled) {
+    background-color: #374151;
+  }
+  
+  .signin-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .social-signin-container {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .social-signin-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: white;
+    color: #1F2937;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    border: 1px solid #D1D5DB;
+    transition: background-color 0.2s;
+  }
+  
+  .social-signin-button:hover:not(:disabled) {
+    background-color: #F3F4F6;
+  }
+  
+  .login-link-container {
+    margin-top: 2rem;
+    text-align: center;
+    color: #111827;
+  }
+  
+  .login-link {
+    color: #3B82F6;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 768px) {
+    .signin-container {
+      flex-direction: row;
+    }
+  
+    .signin-image-container,
+    .signin-form-container {
+      width: 50%;
+    }
+  }
