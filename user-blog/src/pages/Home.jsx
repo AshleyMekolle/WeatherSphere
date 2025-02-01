@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { collection, getDocs, updateDoc, doc, arrayUnion, arrayRemove, query, orderBy, getDoc, serverTimestamp } from 'firebase/firestore'
+import { collection, getDocs, updateDoc, doc, arrayUnion, arrayRemove, getDoc, serverTimestamp } from 'firebase/firestore'
 import { db, auth } from "./firebase"
 import { motion } from 'framer-motion'
 import { ThumbsUp, MessageCircle, User } from 'lucide-react'
